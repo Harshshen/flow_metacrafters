@@ -16,9 +16,9 @@ pub contract CryptoPoops: NonFungibleToken {
     init() {
       self.id = CryptoPoops.totalSupply
       CryptoPoops.totalSupply= CryptoPoops.totalSupply + (1 as UInt64)
-      self.name = "Alpesh the great"
-      self.favouriteFood = "Biryani"
-      self.luckyNumber = 178
+      self.name = "Harsh the metacrafter"
+      self.favouriteFood = "shahi paneeer"
+      self.luckyNumber = 03
     }
   }
 
